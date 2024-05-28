@@ -242,7 +242,7 @@ If succesfully deployed, you will get the following output
 
 ```bash
 >npx hardhat run scripts/deploy-and-call.js
-Storage contract deployed to: 0x48F68BF4A1b1fE6589B9D0a5ad0dF0520582edA2
+Storage contract deployed to: 0xc4adEb37bdA0B1A4a481b999BDAef99cB948E846
 call retrieve(): BigNumber { value: "0" }
 call store(), set value to 100
 call retrieve() again: BigNumber { value: "100" }
@@ -295,7 +295,7 @@ The application's key blockchain logic is implemented in [App.tsx](https://githu
 3. Paste this into [Line 9 of App.tsx](https://github.com/coredao-org/dapp-tutorial/blob/master/src/components/App.tsx#L10). 
 
 ```javascript
-const contractAddress = '0x48F68BF4A1b1fE6589B9D0a5ad0dF0520582edA2'
+const contractAddress = '0xc4adEb37bdA0B1A4a481b999BDAef99cB948E846'
 ```
 
 4. Additionally, we'll need the ABI metadata to interact with the contract from our dApp. From the `artifacts/contracts` folder in the root of your project. Copy the `Storage.json` file and save it to the `/src/contracts` folder.
